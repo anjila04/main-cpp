@@ -1,7 +1,7 @@
 //Name:  Your name here
 //Email:  Your email here
 //Date:  November 2019
-//Prints "Hello, World!" 10 times, using a loop
+//Prints "Hello, World!" 10 times, using a loop. 
 
 #include <iostream>
 using namespace std;
