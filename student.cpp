@@ -1,15 +1,13 @@
 // Name:Anjila Raya
 // Email: anjila.raya48@myhunter.cuny.edu
-// Prints Hello! (C++).
+// Prints "Hello, World!" and "Hello, C++!".
 
 #include <iostream>
+using namespace std; 
 
-int main() {
-    // Print "Hello, World!" to the screen
-    std::cout << "Hello, World!" << std::endl;
-    
-    // Print "Hello, C++!" to the screen
-    std::cout << "Hello, C++!" << std::endl;
-
+int main()
+{
+    cout << "Hello, World!";
+    cout << "Hello, C++!";
     return 0;
 }
