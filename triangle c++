@@ -1,0 +1,26 @@
+/Name:  Anjila Raya
+//Email:  anjila.raya48@myhunter.cuny.edu
+//Date:  May 9,2024
+//draws a triangle of that height and width using 'character graphics'.
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int height;
+    
+    // Ask the user for the height of the triangle
+    cout << "Enter a number: ";
+    cin >> height;
+    
+    // Draw the triangle
+    for (int i = 1; i <= height; ++i) {
+        for (int j = 1; j <= i; ++j) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+    
+    return 0;
+}
